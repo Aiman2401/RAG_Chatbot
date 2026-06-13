@@ -1,0 +1,9 @@
+panel
+pypdf
+chromadb
+tiktoken
+langchain
+langchain-community
+langchain-openai
+openai
+groq
