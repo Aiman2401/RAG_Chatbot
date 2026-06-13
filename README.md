@@ -26,3 +26,10 @@ Ask questions about recent AI topics and get accurate, document-grounded answers
 ## How It Works
 The document is chunked, embedded into a FAISS vector store, 
 and retrieved contextually to answer user queries using Groq's LLM.
+
+## Usage
+1. Upload your own PDF to `/content/` in Colab
+2. Update the PDF path in the notebook:
+   loader = PyPDFLoader("/content/your_file.pdf")
+3. Add your Groq API key to Colab Secrets as `GROQ_API_KEY`
+4. Run all cells
