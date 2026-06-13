@@ -4,6 +4,9 @@ chromadb
 tiktoken
 langchain
 langchain-community
-langchain-openai
-openai
+langchain-chroma
+langchain-huggingface
+langchain-groq
+langchain-core
+sentence-transformers
 groq
